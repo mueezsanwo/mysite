@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ProjectItem = ({ name, image, id, git, url }) => {
+const ProjectItem = ({ name, image, id, git, url, type }) => {
   return (
     <div>
      {/* Grid Item */}
@@ -9,7 +9,7 @@ const ProjectItem = ({ name, image, id, git, url }) => {
      {/* hover effect */}
      <div className=' opacity-0 group-hover:opacity-100'>
          <span className='text-2xl font-bold text-white tracking-wider'>
-           React JS Application
+           {type} JS Application
          </span>
          <h2> {name} </h2>
          <div>

@@ -18,7 +18,7 @@ const Work = () => {
            {/* Container */}
            <div
             className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-                {ProjectList.map((project, ) => {return <ProjectItem name={project.name} image={project.image} git={project.git} url={project.url}  />})}
+                {ProjectList.map((project, ) => {return <ProjectItem name={project.name} image={project.image} git={project.git} url={project.url} type={project.type} />})}
              
             </div>
         </div>

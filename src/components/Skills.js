@@ -6,6 +6,7 @@ import ReactImg from '../assets/react.png';
 import FireBase from '../assets/firebase.png';
 import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
+import NextImg from '../assets/Next.jpg'
 
 
 const Skills = () => {
@@ -34,6 +35,10 @@ const Skills = () => {
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={ReactImg} alt='react' />
                     <p className='my-4'>React</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={NextImg} alt='react' />
+                    <p className='my-4'>Next</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={GitHub} alt='github' />
